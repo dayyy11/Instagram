@@ -2,29 +2,29 @@ name: Instagram-Facebook-Threads
 desc: Meta 家族分流（Instagram / Facebook / Threads），可手动切换
 author: Copilot
 
-# 以下为人类可读的 YAML 元信息。下面同时追加了 Loon/规则所需的每行规则格式（最后一列为策略组名：Proxy）。
+# 以下为人类可读的 YAML 元信息。下面同时追加了 Loon/规则所需的每行规则格式（最后一列为策略组名：美国时延优选）。
 
 # 纯规则行（每行表示一条规则，Loon 可直接识别）
-DOMAIN-SUFFIX,instagram.com,Proxy
-DOMAIN-SUFFIX,cdninstagram.com,Proxy
-DOMAIN-SUFFIX,instagramcdn.com,Proxy
-DOMAIN-SUFFIX,fbcdn.net,Proxy
-DOMAIN-SUFFIX,akamaihd.net,Proxy
-DOMAIN-SUFFIX,graph.instagram.com,Proxy
-DOMAIN-SUFFIX,graph.facebook.com,Proxy
-DOMAIN-SUFFIX,facebook.com,Proxy
-DOMAIN-SUFFIX,m.facebook.com,Proxy
-DOMAIN-SUFFIX,connect.facebook.net,Proxy
-DOMAIN-SUFFIX,edge-mqtt.facebook.com,Proxy
-DOMAIN-SUFFIX,cdn.fbsbx.com,Proxy
-DOMAIN-SUFFIX,fb.com,Proxy
-DOMAIN-SUFFIX,fb.me,Proxy
-DOMAIN-SUFFIX,scontent.cdninstagram.com,Proxy
-DOMAIN-SUFFIX,static.cdninstagram.com,Proxy
-DOMAIN-SUFFIX,video-cdn.instagram.com,Proxy
-DOMAIN-SUFFIX,video-downloads.instagram.com,Proxy
-DOMAIN-SUFFIX,akamaized.net,Proxy
-DOMAIN-SUFFIX,akamaitechnologies.com,Proxy
-DOMAIN-SUFFIX,cloudfront.net,Proxy
-DOMAIN-SUFFIX,edgekey.net,Proxy
-DOMAIN-SUFFIX,edgesuite.net,Proxy
+DOMAIN-SUFFIX,instagram.com,美国时延优选
+DOMAIN-SUFFIX,cdninstagram.com,美国时延优选
+DOMAIN-SUFFIX,instagramcdn.com,美国时延优选
+DOMAIN-SUFFIX,fbcdn.net,美国时延优选
+DOMAIN-SUFFIX,akamaihd.net,美国时延优选
+DOMAIN-SUFFIX,graph.instagram.com,美国时延优选
+DOMAIN-SUFFIX,graph.facebook.com,美国时延优选
+DOMAIN-SUFFIX,facebook.com,美国时延优选
+DOMAIN-SUFFIX,m.facebook.com,美国时延优选
+DOMAIN-SUFFIX,connect.facebook.net,美国时延优选
+DOMAIN-SUFFIX,edge-mqtt.facebook.com,美国时延优选
+DOMAIN-SUFFIX,cdn.fbsbx.com,美国时延优选
+DOMAIN-SUFFIX,fb.com,美国时延优选
+DOMAIN-SUFFIX,fb.me,美国时延优选
+DOMAIN-SUFFIX,scontent.cdninstagram.com,美国时延优选
+DOMAIN-SUFFIX,static.cdninstagram.com,美国时延优选
+DOMAIN-SUFFIX,video-cdn.instagram.com,美国时延优选
+DOMAIN-SUFFIX,video-downloads.instagram.com,美国时延优选
+DOMAIN-SUFFIX,akamaized.net,美国时延优选
+DOMAIN-SUFFIX,akamaitechnologies.com,美国时延优选
+DOMAIN-SUFFIX,cloudfront.net,美国时延优选
+DOMAIN-SUFFIX,edgekey.net,美国时延优选
+DOMAIN-SUFFIX,edgesuite.net,美国时延优选
