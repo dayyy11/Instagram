@@ -2,27 +2,29 @@ name: Instagram-Facebook-Threads
 desc: Meta 家族分流（Instagram / Facebook / Threads），可手动切换
 author: Copilot
 
-rules:
-  - DOMAIN-SUFFIX,instagram.com
-  - DOMAIN-SUFFIX,cdninstagram.com
-  - DOMAIN-SUFFIX,instagramcdn.com
-  - DOMAIN-SUFFIX,fbcdn.net
-  - DOMAIN-SUFFIX,akamaihd.net
-  - DOMAIN-SUFFIX,graph.instagram.com
-  - DOMAIN-SUFFIX,graph.facebook.com
-  - DOMAIN-SUFFIX,facebook.com
-  - DOMAIN-SUFFIX,m.facebook.com
-  - DOMAIN-SUFFIX,connect.facebook.net
-  - DOMAIN-SUFFIX,edge-mqtt.facebook.com
-  - DOMAIN-SUFFIX,cdn.fbsbx.com
-  - DOMAIN-SUFFIX,fb.com
-  - DOMAIN-SUFFIX,fb.me
-  - DOMAIN-SUFFIX,scontent.cdninstagram.com
-  - DOMAIN-SUFFIX,static.cdninstagram.com
-  - DOMAIN-SUFFIX,video-cdn.instagram.com
-  - DOMAIN-SUFFIX,video-downloads.instagram.com
-  - DOMAIN-SUFFIX,akamaized.net
-  - DOMAIN-SUFFIX,akamaitechnologies.com
-  - DOMAIN-SUFFIX,cloudfront.net
-  - DOMAIN-SUFFIX,edgekey.net
-  - DOMAIN-SUFFIX,edgesuite.net
+# 以下为人类可读的 YAML 元信息。下面同时追加了 Loon/规则所需的每行规则格式（最后一列为策略组名：Proxy）。
+
+# 纯规则行（每行表示一条规则，Loon 可直接识别）
+DOMAIN-SUFFIX,instagram.com,Proxy
+DOMAIN-SUFFIX,cdninstagram.com,Proxy
+DOMAIN-SUFFIX,instagramcdn.com,Proxy
+DOMAIN-SUFFIX,fbcdn.net,Proxy
+DOMAIN-SUFFIX,akamaihd.net,Proxy
+DOMAIN-SUFFIX,graph.instagram.com,Proxy
+DOMAIN-SUFFIX,graph.facebook.com,Proxy
+DOMAIN-SUFFIX,facebook.com,Proxy
+DOMAIN-SUFFIX,m.facebook.com,Proxy
+DOMAIN-SUFFIX,connect.facebook.net,Proxy
+DOMAIN-SUFFIX,edge-mqtt.facebook.com,Proxy
+DOMAIN-SUFFIX,cdn.fbsbx.com,Proxy
+DOMAIN-SUFFIX,fb.com,Proxy
+DOMAIN-SUFFIX,fb.me,Proxy
+DOMAIN-SUFFIX,scontent.cdninstagram.com,Proxy
+DOMAIN-SUFFIX,static.cdninstagram.com,Proxy
+DOMAIN-SUFFIX,video-cdn.instagram.com,Proxy
+DOMAIN-SUFFIX,video-downloads.instagram.com,Proxy
+DOMAIN-SUFFIX,akamaized.net,Proxy
+DOMAIN-SUFFIX,akamaitechnologies.com,Proxy
+DOMAIN-SUFFIX,cloudfront.net,Proxy
+DOMAIN-SUFFIX,edgekey.net,Proxy
+DOMAIN-SUFFIX,edgesuite.net,Proxy
