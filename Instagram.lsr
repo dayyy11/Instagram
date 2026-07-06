@@ -1,0 +1,28 @@
+name: Instagram-Facebook-Threads
+desc: Meta 家族分流（Instagram / Facebook / Threads），可手动切换
+author: Copilot
+
+rules:
+  - DOMAIN-SUFFIX,instagram.com
+  - DOMAIN-SUFFIX,cdninstagram.com
+  - DOMAIN-SUFFIX,instagramcdn.com
+  - DOMAIN-SUFFIX,fbcdn.net
+  - DOMAIN-SUFFIX,akamaihd.net
+  - DOMAIN-SUFFIX,graph.instagram.com
+  - DOMAIN-SUFFIX,graph.facebook.com
+  - DOMAIN-SUFFIX,facebook.com
+  - DOMAIN-SUFFIX,m.facebook.com
+  - DOMAIN-SUFFIX,connect.facebook.net
+  - DOMAIN-SUFFIX,edge-mqtt.facebook.com
+  - DOMAIN-SUFFIX,cdn.fbsbx.com
+  - DOMAIN-SUFFIX,fb.com
+  - DOMAIN-SUFFIX,fb.me
+  - DOMAIN-SUFFIX,scontent.cdninstagram.com
+  - DOMAIN-SUFFIX,static.cdninstagram.com
+  - DOMAIN-SUFFIX,video-cdn.instagram.com
+  - DOMAIN-SUFFIX,video-downloads.instagram.com
+  - DOMAIN-SUFFIX,akamaized.net
+  - DOMAIN-SUFFIX,akamaitechnologies.com
+  - DOMAIN-SUFFIX,cloudfront.net
+  - DOMAIN-SUFFIX,edgekey.net
+  - DOMAIN-SUFFIX,edgesuite.net
